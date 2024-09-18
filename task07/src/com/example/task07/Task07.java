@@ -5,8 +5,9 @@ public class Task07 {
     public static int solution(int n, int m, int k) {
 
         // TODO напишите здесь свою корректную реализацию этого метода, вместо сеществующей
-
-        return 0;
+        int x = n / k;
+        int y = m / k;
+        return x * y;
     }
 
     public static void main(String[] args) {
@@ -16,6 +17,8 @@ public class Task07 {
         int result = solution(10, 20, 5);
         System.out.println(result);
         */
+        int itog = solution(20, 50, 3);
+        System.out.println(itog);
     }
 
 }

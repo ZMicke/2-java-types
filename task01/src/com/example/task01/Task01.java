@@ -5,8 +5,8 @@ public class Task01 {
     public static String solution() {
 
         // TODO напишите здесь свою корректную реализацию этого метода, вместо сеществующей
-
-        return "здесь какая-то неправильная строка";
+        String res = "Я думаю, быть программистом - это круто";
+        return res;
     }
 
     public static void main(String[] args) {
@@ -16,6 +16,8 @@ public class Task01 {
         String result = solution();
         System.out.println(result);
          */
+        String result = solution();
+        System.out.println(result);
     }
 
 }

@@ -5,8 +5,10 @@ public class Task06 {
     public static int solution(int x, int y) {
 
         // TODO напишите здесь свою корректную реализацию этого метода, вместо сеществующей
+        int resSum = Math.abs(x + y);
+        String result = Integer.toString(resSum);
 
-        return 0;
+        return result.length();
     }
 
     public static void main(String[] args) {
@@ -16,6 +18,8 @@ public class Task06 {
         int result = solution(12, 34);
         System.out.println(result);
         */
+        int itog = solution(-111, -222);
+        System.out.println(itog);
     }
 
 }

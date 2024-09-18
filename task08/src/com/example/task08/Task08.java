@@ -5,7 +5,8 @@ public class Task08 {
     public static boolean solution() {
         // TODO измените тип и значение переменной x, чтобы возвращалось значение true
 
-        int x = 100;
+        //double x = 100;
+        double x = Double.POSITIVE_INFINITY;
         return x == x + 1;
     }
 
@@ -14,6 +15,7 @@ public class Task08 {
         /*
         System.out.println(solution());
         */
+        System.out.println(solution());
     }
 
 }
